@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>image-type</artifactId>
-    <version>0.1.5-SNAPSHOT</version>
+    <version>0.1.4-1-SNAPSHOT</version>
     <name>image-type</name>
     <description>WebJar for image-type</description>
     <url>http://webjars.org</url>
@@ -46,6 +46,24 @@
         <extractDir>${project.build.directory}/image-type-${upstreamVersion}</extractDir>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstreamVersion}</destDir>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>is-gif</artifactId>
+            <version>0.1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>is-jpg</artifactId>
+            <version>0.1.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>is-png</artifactId>
+            <version>0.1.1</version>
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>
