@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>image-type</artifactId>
-    <version>0.1.4-1-SNAPSHOT</version>
+    <version>0.1.4-1</version>
     <name>image-type</name>
     <description>WebJar for image-type</description>
     <url>http://webjars.org</url>
@@ -28,7 +28,7 @@
         <url>https://github.com/webjars/image-type</url>
         <connection>scm:git:https://github.com/webjars/image-type.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/image-type.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>image-type-0.1.4-1</tag>
     </scm>
 
     <developers>
